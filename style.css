@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 60px;
+}
+
+.navbar {
+    background-color: #010103 !important;
+    border-bottom: 1px solid gray;
+}
+
+.navbar-nav a {
+    color: white !important;
+    font-size: 18px;
+}
+
+.header-icon {
+    color: white;
+}
+
+.header-icon i {
+    margin: 10px;
+    font-size: 25px;
+}
+
+@media screen and (max-width : 576px) {
+    .header-icon-sm {
+        display: none;
+    }
+}
