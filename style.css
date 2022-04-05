@@ -241,3 +241,35 @@ section {
     margin-bottom: 5px;
 }
 /* products area ends */
+
+/* review area starts */
+.review-card{
+    padding: 20px 10px;
+    border: var(--border);
+    text-align: center;
+}
+
+.review-card img {
+    width: 58px;
+    margin-bottom: 15px;
+}
+
+.review-card .avatar img {
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.review-card p {
+    color: rgb(222, 222, 222);
+    font-size: 16px;
+}
+
+.review-card h4 {
+    color: white;
+}
+
+.review-card .stars {
+    color: var(--main-color);
+}
+/* review area ends */
