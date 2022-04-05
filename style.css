@@ -74,6 +74,16 @@ section {
 .navbar-nav a {
     color: white !important;
     font-size: 18px;
+    margin: 0 8px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 5px;
+    transition: .2s linear;
+}
+
+.navbar-nav a:hover {
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
 }
 
 .header-icon {
@@ -151,4 +161,39 @@ section {
 .about-text p {
     color: rgb(222, 222, 222);
 }
-/* about area end */
+/* about area ends */
+
+/* menu area starts */
+.menu-card {
+    border: 1px solid rgba(255, 255, 255, 0.351);
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    transition: .2s linear;
+}
+.menu-card img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.menu-card h3 {
+    font-size: 25px;
+}
+
+.menu-card .price {
+    font-size: 30px;
+    font-weight: 300;
+}
+.menu-card .price span {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.menu-card:hover {
+    background-color: #fff;
+}
+
+.menu-card:hover > * {
+    color: var(--black);
+}
+/* menu area ends */
