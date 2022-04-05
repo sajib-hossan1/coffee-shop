@@ -1,15 +1,73 @@
+:root {
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg-color : #010103;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+html::-webkit-scrollbar{
+    width: 7px;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+.btn-style {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #D3AD7F;
+    padding: 6px 25px;
+    font-size: 18px;
+    transition: .2s linear;
+}
+
+.btn-style:hover {
+    letter-spacing: 2px;
+}
+
+
+body {
+    background-color: var(--bg-color);
+}
+
+section {
+    padding: 90px 0;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.section-title span {
+    color: #D3AD7F;
+}
+
+/* header area starts */
+
 .logo {
     height: 60px;
 }
 
 .navbar {
-    background-color: #010103 !important;
+    background-color: var(--bg-color) !important;
     border-bottom: 1px solid gray;
 }
 
@@ -32,3 +90,65 @@
         display: none;
     }
 }
+/* header area end */
+
+/* banner area start */
+.banner-section {
+    background: url(images/home-img.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-text {
+    color: white;
+    margin-top: 140px;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-weight: 100;
+    color: #eee;
+}
+
+@media screen and (max-width: 992px) {
+    .banner-text {
+        text-align: center;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-text p {
+        font-size: 16px;
+    }
+    .get-btn {
+        font-size: 16px;
+        padding: 5px 18px;
+    }
+}
+
+/* banner area end */
+
+/* about area start */
+.about-section .row {
+    background-color: var(--black);
+}
+
+.about-text {
+    padding: 10px;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.about-text p {
+    color: rgb(222, 222, 222);
+}
+/* about area end */
