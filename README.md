@@ -1,6 +1,6 @@
 # Cafena
 > A simple coffe shop landing page design
-> Live demo [_here_]([https://www.example.com](https://sajib-hossan1.github.io/coffee-shop/)).
+> Live demo [_here_](https://sajib-hossan1.github.io/coffee-shop/).
 
 ## Technologies Used
 - HTML5
