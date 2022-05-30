@@ -17,7 +17,7 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](https://ibb.co/L0hW073)
+![Example screenshot](https://i.ibb.co/x2802TN/cafena-full.jpg)
 
 
 ## Acknowledgements
